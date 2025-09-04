@@ -12,4 +12,5 @@ class Employee(models.Model):
     dept=models.CharField(max_length=50)
     job=models.CharField(max_length=50)
     doj=models.CharField(max_length=10)
+    company=models.CharField(max_length=100,null=True)
 
